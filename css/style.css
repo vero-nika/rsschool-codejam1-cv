@@ -71,6 +71,16 @@ body {
     font-size: 0.5em;
     color:#fff;
 }
+.card article:nth-child(2n) {
+    margin-left: 40%;
+}
+.card article {
+    width: 60%;
+    background: #fff;
+    margin: 2em;
+    margin-left: 10px;
+
+}
 
     .asocialpic img {
         width: 25px;
