@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+}
+body {
+    display:flex;
+    flex-direction:column;
+    height:100vh;
+    background:#fff;
+    font-weight:bold;
+    justify-content: space-between;
+    align-items: stretch;
+    font-family: 'Open Sans Condensed', sans-serif;
+   }
+h1{
+    font-size: 2em;
+   }
+h2{
+    font-size: 1.3em;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 15px;
+}   
+p{
+    font-size: 1em;
+    text-align: center;
+    margin-bottom: 1em;
+    font-weight: 100;
+    line-height: 1.5em;
+}
+.section {
+    position: relative;
+    padding-top: 0;
+    margin: 15px 0;
+    height: auto;
+    background-color: transparent;
+}
+.container {
+    padding: 15px;
+    margin-right: auto;
+    margin-left: auto; 
+    max-width: 1024px;
+    background: #f7f7f7;
+}
+.mypic {
+    position: absolute;
+    background: #fff;
+    width: 200px;
+    height: 200px;
+    top: -100px;
+    left: 50%;
+    margin-left: -90px;
+    border: 5px solid #fff;
+    border-radius: 50%;
+    display: block;
+    overflow: hidden;
+}
+.mypic img {
+    width: 250%;
+    margin: -40px -110px;
+    position: inherit;
+}
+.card {
+    padding: 200px 5%;
+}
+.list-inline {
+    padding: 1em;
+   
+}
+
+.field{
+
+    background: #7f7b80;
+    border:4px;
+}
+.field-header { height: 35%;
+    background-color: rgb(156, 158, 177);
+    font-weight: 200;
+    padding: 5% 5% 120px 5%;
+    text-align: center;
+    font-size: 1em;
+    color:#fff;
+}
+.field-footer { height: 25%; 
+    background-color: rgb(103, 105, 122);
+    font-weight: 50px;
+    text-align: center;
+    font-size: 0.5em;
+    color:#fff;
+}
+.card article:nth-child(2n) {
+    margin-left: 40%;
+    box-shadow: 5px 0 5px RGB(212, 215, 225);
+}
+.card article {
+    width: 60%;
+    background: #fff;
+    margin: 2em;
+    margin-left: 10px;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 5px 5px RGB(212, 215, 225);
+}
+.asocialpic img {
+    width: 25px;
+    height: 25px;
+}
+li {
+    display: inline-block;
+    padding-right: 15px;
+    padding-left: 15px;
+    }
