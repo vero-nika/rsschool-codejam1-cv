@@ -38,7 +38,7 @@ body {
     display: block;
     overflow: hidden;
 }
-img {
+.mypic img {
     width: 250%;
     margin: -40px -110px;
     position: inherit;
@@ -47,16 +47,12 @@ img {
     padding: 200px 5%;
 }
 .list-inline {
-    padding-left: 0;
-   /*  margin-left: -5px;
-   list-style: none;*/
+    padding: 1em;
    
 }
 
 .field{
-    /*display: flex;
-    justify-content: center;
-    align-items: center;*/
+
     background: #7f7b80;
     border:4px;
 }
@@ -68,18 +64,24 @@ img {
     font-size: 1em;
     color:#fff;
 }
-.field-footer { height: 20%; 
+.field-footer { height: 25%; 
     background-color: rgb(103, 105, 122);
     font-weight: 50px;
     text-align: center;
     font-size: 0.5em;
-    color:#fff;}
+    color:#fff;
+}
+
+    .asocialpic img {
+        width: 25px;
+        height: 25px;
+    }
     li {
         display: inline-block;
-        padding-right: 5px;
-        padding-left: 5px;
+        padding-right: 15px;
+        padding-left: 15px;
     }
-a.instagram {
+/*a.instagram {
     background-image:rgb(103, 105, 122);
     background-repeat: no-repeat;
     height: 24px;
