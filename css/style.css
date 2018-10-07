@@ -6,11 +6,25 @@ body {
     flex-direction:column;
     height:100vh;
     background:#fff;
-    font-size:24px;
     font-weight:bold;
     justify-content: space-between;
     align-items: stretch;
    }
+h1{
+    font-size: 2em;
+    font-style: italic;
+   }
+h2{
+    font-size: 1.3em;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 15px;
+}   
+p{
+    font-size: 1em;
+    text-align: center;
+    margin-bottom: 1em;
+}
 .section {
     position: relative;
     padding-top: 0;
@@ -79,17 +93,16 @@ body {
     background: #fff;
     margin: 2em;
     margin-left: 10px;
-
+    padding: 15px;
 }
-
-    .asocialpic img {
-        width: 25px;
-        height: 25px;
-    }
-    li {
-        display: inline-block;
-        padding-right: 15px;
-        padding-left: 15px;
+.asocialpic img {
+    width: 25px;
+    height: 25px;
+}
+li {
+    display: inline-block;
+    padding-right: 15px;
+    padding-left: 15px;
     }
 /*a.instagram {
     background-image:rgb(103, 105, 122);
